@@ -3,7 +3,9 @@ import { Html, Head, Main, NextScript } from 'next/document'
 export default function Document() {
   return (
     <Html lang="en">
-      <Head />
+      <Head>
+          <script type="text/javascript" src="https://checkout.wompi.co/widget.js" async></script>
+      </Head>
       <body>
         <Main />
         <NextScript />

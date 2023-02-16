@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #7024b4;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.cartTotal{
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: #5a1c8f;
+}
+
+.buttonIcon {
+    width: 1.4rem;
+    height: 1.4rem;
+    color: white;
+}

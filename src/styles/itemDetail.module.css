@@ -1,0 +1,115 @@
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px;
+  position: relative;
+}
+
+.image {
+    object-fit: contain;
+    /* width: 100%; */
+    height: 100%;
+}
+
+.itemDetailInfo {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+
+.infoRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 8px;
+    margin-bottom: 10px;
+    /* padding: 10px 0px; */
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.pointSeparator {
+    width: 5px;
+    height: 5px;
+    background-color: #c6a7e1;
+    margin: 0px 10px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.priceText {
+    font-weight: 600;
+    color: #7024b4;
+}
+
+.descriptionText {
+    font-size: 15px;
+    color: #CBC9D0;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.plusButton {
+    background-color: #7024b4;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    padding: 0.2rem 0.9rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+.plusButton:hover {
+    background-color: #5a1c8f;
+}
+
+.minusButton {
+    background-color: #CBC9D0;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    padding: 0.2rem 0.9rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+.minusButton:hover {
+    background-color: #b0aeb8;
+}
+
+.quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7024b4;
+    width: 25px;
+    height: 25px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 5%;
+    top: 0;
+}
+
+.descContainer {
+    margin-top: 10px;
+    border-top: 1px solid #CBC9D0;
+    border-bottom: 1px solid #CBC9D0;
+    padding: 10px 0px;
+}
